@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Jordan Tatum | Resume</title>
+  </head>
+
+  <body>
+
+    <!-- Header Bar -->
+    <div class="container pt-3">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom shadow-sm rounded-3">
+        <a href="./home.html"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none px-2"
+        >
+          <span class="fs-4 fw-bold" style="color: #2e3a4e;">{ </span>
+          <span class="fs-4 fw-bold" style="color: #2e3a4e;">"name"</span>
+          <span class="fs-4 fw-bold mx-1">:</span>
+          <span class="fs-4 fw-bold" style="color: #4a5568;">"Jordan Tatum"</span>
+          <span class="fs-4 fw-bold" style="color: #2e3a4e;"> }</span>
+        </a>
+        <ul class="nav nav-pills gap-2">
+          <li class="nav-item"><a href="./home.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="./about_me.html" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="./projects.html" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="./resume.html" class="nav-link active" aria-current="page">Resume</a></li>
+        </ul>
+      </header>
+    </div>
+
+    <!-- Page Header -->
+    <div class="container pt-3 pb-2">
+      <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+        <div>
+          <h1 class="fw-bold" style="color: #2e3a4e;">
+            <i class="bi bi-file-earmark-text me-2"></i>Resume
+          </h1>
+          <p class="text-muted mb-0">Experience, education, and skills — all in one place.</p>
+        </div>
+        <a href="./assests/jordan_resume.pdf" download="jordan_resume.pdf" class="btn" style="background-color: #2e3a4e; color: #ffffff;">
+        <i class="bi bi-download me-2"></i>Download PDF
+        </a>
+      </div>
+      <hr />
+    </div>
+
+    <!-- Resume Content -->
+    <div class="container py-3">
+      <div class="row g-4">
+
+        <!-- Left Column -->
+        <div class="col-lg-4 d-flex flex-column gap-4">
+
+          <!-- Contact Card -->
+          <div class="border rounded-3 shadow p-3">
+            <h6 class="fw-bold mb-3" style="color: #2e3a4e;">
+              <i class="bi bi-person-lines-fill me-2"></i>Contact
+            </h6>
+            <ul class="list-unstyled mb-0 d-flex flex-column gap-2">
+              <li class="small">
+                <i class="bi bi-geo-alt-fill me-2" style="color: #2e3a4e;"></i>Fredericksburg, VA
+              </li>
+              <li class="small">
+                <i class="bi bi-envelope-fill me-2" style="color: #2e3a4e;"></i>
+                <a href="mailto:ibjordant@gmail.com" class="text-decoration-none" style="color: inherit;">ibjordant@gmail.com</a>
+              </li>
+              <li class="small">
+                <i class="bi bi-linkedin me-2" style="color: #2e3a4e;"></i>
+                <a href="https://www.linkedin.com/in/jordan-tatum-488121179/" target="_blank" class="text-decoration-none" style="color: inherit;">linkedin.com/in/jordan-tatum</a>
+              </li>
+              <li class="small">
+                <i class="bi bi-github me-2" style="color: #2e3a4e;"></i>
+                <a href="https://github.com/jordan-tatum" target="_blank" class="text-decoration-none" style="color: inherit;">github.com/jordan-tatum</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Clearance & Credentials Card -->
+          <div class="border rounded-3 shadow p-3">
+            <h6 class="fw-bold mb-3" style="color: #2e3a4e;">
+              <i class="bi bi-shield-lock-fill me-2"></i>Clearance & Credentials
+            </h6>
+            <div class="d-flex flex-column gap-2">
+              <span class="badge rounded-pill text-start" style="background-color: #2e3a4e; width: fit-content;">
+                <i class="bi bi-shield-fill-check me-1"></i>Active DoD TS/SCI CI Poly
+              </span>
+              <span class="badge rounded-pill text-start" style="background-color: #2e3a4e; width: fit-content;">
+                <i class="bi bi-patch-check-fill me-1"></i>Security+
+              </span>
+            </div>
+          </div>
+
+          <!-- Tech Stack Card -->
+          <div class="border rounded-3 shadow p-3">
+            <h6 class="fw-bold mb-3" style="color: #2e3a4e;">
+              <i class="bi bi-tools me-2"></i>Tech Stack
+            </h6>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;"><i class="bi bi-filetype-py me-1"></i>Python</span>
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;"><i class="bi bi-database me-1"></i>SQL</span>
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;">PySpark</span>
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;">Palantir Foundry</span>
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;"><i class="bi bi-terminal me-1"></i>Linux/RHEL</span>
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;"><i class="bi bi-git me-1"></i>Git/GitHub</span>
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;"><i class="bi bi-filetype-html me-1"></i>HTML/CSS</span>
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;">FastAPI</span>
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;">PostgreSQL</span>
+            </div>
+          </div>
+
+          <!-- Top Skills Card -->
+          <div class="border rounded-3 shadow p-3">
+            <h6 class="fw-bold mb-3" style="color: #2e3a4e;">
+              <i class="bi bi-star-fill me-2"></i>Top Skills
+            </h6>
+            <ul class="list-unstyled mb-0 d-flex flex-column gap-2">
+              <li class="small"><i class="bi bi-circle-fill me-2" style="color: #2e3a4e; font-size: 0.5rem; vertical-align: middle;"></i>Data Analytics</li>
+              <li class="small"><i class="bi bi-circle-fill me-2" style="color: #2e3a4e; font-size: 0.5rem; vertical-align: middle;"></i>Data Engineering</li>
+              <li class="small"><i class="bi bi-circle-fill me-2" style="color: #2e3a4e; font-size: 0.5rem; vertical-align: middle;"></i>PySpark</li>
+              <li class="small"><i class="bi bi-circle-fill me-2" style="color: #2e3a4e; font-size: 0.5rem; vertical-align: middle;"></i>Extract, Transform, Load (ETL)</li>
+              <li class="small"><i class="bi bi-circle-fill me-2" style="color: #2e3a4e; font-size: 0.5rem; vertical-align: middle;"></i>Data Pipelines</li>
+              <li class="small"><i class="bi bi-circle-fill me-2" style="color: #2e3a4e; font-size: 0.5rem; vertical-align: middle;"></i>Team Leadership</li>
+              <li class="small"><i class="bi bi-circle-fill me-2" style="color: #2e3a4e; font-size: 0.5rem; vertical-align: middle;"></i>Project Management</li>
+            </ul>
+          </div>
+
+          <!-- Certifications Card -->
+          <div class="border rounded-3 shadow p-3">
+            <h6 class="fw-bold mb-3" style="color: #2e3a4e;">
+              <i class="bi bi-award me-2"></i>Certifications In Progress
+            </h6>
+            <ul class="list-unstyled mb-0 d-flex flex-column gap-2">
+              <li class="small d-flex align-items-center gap-2">
+                <span class="badge rounded-pill" style="background-color: #4a5568;">Pursuing</span>Linux+
+              </li>
+              <li class="small d-flex align-items-center gap-2">
+                <span class="badge rounded-pill" style="background-color: #4a5568;">Pursuing</span>Databricks Data Engineer Associate
+              </li>
+              <li class="small d-flex align-items-center gap-2">
+                <span class="badge rounded-pill" style="background-color: #4a5568;">Pursuing</span>AWS Cloud Practitioner
+              </li>
+              <li class="small d-flex align-items-center gap-2">
+                <span class="badge rounded-pill" style="background-color: #4a5568;">Pursuing</span>Full-Stack Web Dev Bootcamp
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-lg-8 d-flex flex-column gap-4">
+
+          <!-- Summary -->
+          <div class="border rounded-3 shadow p-4">
+            <h5 class="fw-bold mb-3" style="color: #2e3a4e;">
+              <i class="bi bi-person-circle me-2"></i>Summary
+            </h5>
+            <p class="small mb-0">
+              My journey into tech didn't follow the typical path — and honestly, that's the part I'm most
+              proud of. I went from waiting tables and spending 11 years on a skateboard, to working inside
+              a SCIF supporting what is now the largest AI military defense contract in the world, to building
+              data pipelines as a Junior Data Engineer — with zero formal programming background. Everything I
+              know I built through bootcamps, self-teaching, and a lot of late nights. I'm not afraid to dive
+              headfirst into things I don't know yet. That's kind of my whole story.
+            </p>
+          </div>
+
+          <!-- Experience -->
+          <div class="border rounded-3 shadow p-4">
+            <h5 class="fw-bold mb-4" style="color: #2e3a4e;">
+              <i class="bi bi-briefcase-fill me-2"></i>Experience
+            </h5>
+
+            <!-- ECS -->
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bi bi-building" style="color: #2e3a4e; font-size: 1.2rem;"></i>
+              <h6 class="fw-bold mb-0">ECS <span class="text-muted fw-normal small">· Full-time · 6 yrs 11 mos</span></h6>
+            </div>
+
+            <!-- Junior Data Engineer -->
+            <div class="ps-3 border-start mb-4" style="border-color: #2e3a4e !important;">
+              <div class="d-flex justify-content-between align-items-start flex-wrap gap-1 mb-1">
+                <h6 class="fw-bold mb-0 small">Junior Data Engineer</h6>
+                <span class="badge" style="background-color: #4a5568;">Feb 2025 – Present</span>
+              </div>
+              <p class="text-muted small mb-2">Fairfax County, VA · Hybrid</p>
+              <p class="small mb-2">Technical Stack: Palantir Foundry, Python, PySpark, SQL</p>
+              <div class="d-flex flex-wrap gap-1">
+                <span class="badge rounded-pill" style="background-color: #2e3a4e;">Data Engineering</span>
+                <span class="badge rounded-pill" style="background-color: #2e3a4e;">Data Pipelines</span>
+                <span class="badge rounded-pill" style="background-color: #2e3a4e;">ETL</span>
+                <span class="badge rounded-pill" style="background-color: #2e3a4e;">PySpark</span>
+                <span class="badge rounded-pill" style="background-color: #2e3a4e;">TS/SCI</span>
+              </div>
+            </div>
+
+            <!-- Data Operations Manager -->
+            <div class="ps-3 border-start mb-4" style="border-color: #2e3a4e !important;">
+              <div class="d-flex justify-content-between align-items-start flex-wrap gap-1 mb-1">
+                <h6 class="fw-bold mb-0 small">Data Operations Manager</h6>
+                <span class="badge" style="background-color: #4a5568;">Jul 2024 – Feb 2025</span>
+              </div>
+              <div class="d-flex flex-wrap gap-1">
+                <span class="badge rounded-pill" style="background-color: #2e3a4e;">Team Leadership</span>
+                <span class="badge rounded-pill" style="background-color: #2e3a4e;">Palantir Foundry</span>
+                <span class="badge rounded-pill" style="background-color: #2e3a4e;">Data Analytics</span>
+                <span class="badge rounded-pill" style="background-color: #2e3a4e;">Project Management</span>
+              </div>
+            </div>
+
+            <!-- Technical Project Analyst -->
+            <div class="ps-3 border-start mb-4" style="border-color: #2e3a4e !important;">
+              <div class="d-flex justify-content-between align-items-start flex-wrap gap-1 mb-1">
+                <h6 class="fw-bold mb-0 small">Technical Project Analyst</h6>
+                <span class="badge" style="background-color: #4a5568;">Nov 2022 – Feb 2025</span>
+              </div>
+              <p class="text-muted small mb-2">Fairfax County, VA · Hybrid</p>
+              <ul class="small mb-2 ps-3 d-flex flex-column gap-1">
+                <li>Supported Technical Project Manager managing 10+ data scientists developing automated data pipelines, analytics, and products for the Apollo program.</li>
+                <li>Planned, prepared, and led weekly team meetings to strategize objectives.</li>
+                <li>Conducted analyses on large datasets using SQL, PySpark, and Palantir Foundry to generate reports and answers to government requests.</li>
+                <li>Created high-quality interactive dashboards for filtering and interacting with large datasets.</li>
+                <li>Developed presentations for senior management on continuing tasks and completed products.</li>
+              </ul>
+              <div class="d-flex flex-wrap gap-1">
+                <span class="badge rounded-pill" style="background-color: #2e3a4e;">Team Leadership</span>
+                <span class="badge rounded-pill" style="background-color: #2e3a4e;">Palantir Foundry</span>
+                <span class="badge rounded-pill" style="background-color: #2e3a4e;">TS/SCI</span>
+              </div>
+            </div>
+
+            <!-- Classified Imagery Analyst Supervisor -->
+            <div class="ps-3 border-start mb-4" style="border-color: #2e3a4e !important;">
+              <div class="d-flex justify-content-between align-items-start flex-wrap gap-1 mb-1">
+                <h6 class="fw-bold mb-0 small">Classified Imagery Analyst Supervisor</h6>
+                <span class="badge" style="background-color: #4a5568;">May 2019 – Jan 2023</span>
+              </div>
+              <p class="text-muted small mb-2">Springfield, VA · NGA (SCIF)</p>
+              <ul class="small mb-2 ps-3 d-flex flex-column gap-1">
+                <li>Managed and led 20–30 imagery analysts to meet goals of quantity and quality.</li>
+                <li>Developed onboarding training material for new hires.</li>
+                <li>Supported the Apollo program by labeling imagery for a computer vision initiative across Full Motion Video and Overhead Aerial Imagery.</li>
+                <li>Produced labeled outputs used to develop training, testing, and evaluation datasets for computer vision algorithms.</li>
+              </ul>
+              <div class="d-flex flex-wrap gap-1">
+                <span class="badge rounded-pill" style="background-color: #2e3a4e;">Imagery Analysis</span>
+                <span class="badge rounded-pill" style="background-color: #2e3a4e;">TS/SCI</span>
+                <span class="badge rounded-pill" style="background-color: #2e3a4e;">Team Leadership</span>
+              </div>
+            </div>
+
+            <hr class="my-3" />
+
+            <!-- Texas Roadhouse -->
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bi bi-shop" style="color: #2e3a4e; font-size: 1.2rem;"></i>
+              <h6 class="fw-bold mb-0">Texas Roadhouse <span class="text-muted fw-normal small">· Full-time</span></h6>
+            </div>
+            <div class="ps-3 border-start" style="border-color: #4a5568 !important;">
+              <div class="d-flex justify-content-between align-items-start flex-wrap gap-1 mb-1">
+                <h6 class="fw-bold mb-0 small">Server</h6>
+                <span class="badge" style="background-color: #4a5568;">Mar 2016 – May 2019</span>
+              </div>
+              <p class="text-muted small mb-2">Fredericksburg, VA</p>
+              <ul class="small mb-0 ps-3 d-flex flex-column gap-1">
+                <li>Delivered exceptional customer experiences managing orders, payments, and guest engagement.</li>
+                <li>Trained servers and server assistants, demonstrating early leadership instincts.</li>
+                <li>Reliable and accurate working with a diverse population.</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!-- Education -->
+          <div class="border rounded-3 shadow p-4">
+            <h5 class="fw-bold mb-4" style="color: #2e3a4e;">
+              <i class="bi bi-mortarboard-fill me-2"></i>Education
+            </h5>
+
+            <div class="d-flex gap-3 mb-4">
+              <div class="flex-shrink-0">
+                <div class="rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px; background-color: #2e3a4e;">
+                  <i class="bi bi-mortarboard-fill text-white small"></i>
+                </div>
+              </div>
+              <div>
+                <h6 class="fw-bold mb-0">Indiana University</h6>
+                <p class="text-muted small mb-1">Bachelor of Business Administration — Project Management</p>
+                <p class="text-muted small mb-0">2021 – 2023</p>
+              </div>
+            </div>
+
+            <hr class="my-3" />
+
+            <div class="d-flex gap-3">
+              <div class="flex-shrink-0">
+                <div class="rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px; background-color: #4a5568;">
+                  <i class="bi bi-mortarboard-fill text-white small"></i>
+                </div>
+              </div>
+              <div>
+                <h6 class="fw-bold mb-0">Germanna Community College</h6>
+                <p class="text-muted small mb-1">Associate's Degree — Business Administration & Management</p>
+                <p class="text-muted small mb-0">2016 – 2018</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Notable Projects -->
+          <div class="border rounded-3 shadow p-4">
+            <h5 class="fw-bold mb-4" style="color: #2e3a4e;">
+              <i class="bi bi-code-slash me-2"></i>Notable Projects
+            </h5>
+            <div class="d-flex flex-column gap-3">
+              <div>
+                <div class="d-flex justify-content-between">
+                  <h6 class="fw-bold mb-1">Hard Copy</h6>
+                  <span class="badge" style="background-color: #4a5568;">In Progress</span>
+                </div>
+                <p class="small text-muted mb-0">DVD & VHS tracker — FastAPI, PostgreSQL, Python</p>
+              </div>
+              <hr class="my-1" />
+              <div>
+                <div class="d-flex justify-content-between">
+                  <h6 class="fw-bold mb-1">Shelf Check Out</h6>
+                  <span class="badge" style="background-color: #4a5568;">In Progress</span>
+                </div>
+                <p class="small text-muted mb-0">Grocery price comparison tool — Python, Web Scraping, APIs</p>
+              </div>
+              <hr class="my-1" />
+              <div>
+                <div class="d-flex justify-content-between">
+                  <h6 class="fw-bold mb-1">Magnolia Way Wedding Venue</h6>
+                  <span class="badge" style="background-color: #4a5568;">In Progress</span>
+                </div>
+                <p class="small text-muted mb-0">Full venue website revamp — Web Dev, Payments, Dashboards</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-top shadow-sm mt-5 py-4">
+      <div class="container d-flex align-items-center justify-content-between">
+        <p class="text-muted small mb-0">&copy; 2025 Jordan Tatum. All rights reserved.</p>
+        <div class="d-flex gap-4">
+          <a href="https://www.linkedin.com/in/jordan-tatum-488121179/" target="_blank" style="color: #2e3a4e; font-size: 1.75rem;">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://github.com/jordan-tatum" target="_blank" style="color: #2e3a4e; font-size: 1.75rem;">
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+        <a href="mailto:ibjordant@gmail.com" class="btn" style="background-color: #2e3a4e; color: #ffffff;">
+          <i class="bi bi-envelope me-2"></i>Contact Me
+        </a>
+      </div>
+    </footer>
+
+  </body>
+</html>

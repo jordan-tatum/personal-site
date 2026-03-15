@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Jordan Tatum | Projects</title>
+  </head>
+
+  <body>
+
+    <!-- Header Bar -->
+    <div class="container pt-3">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom shadow-sm rounded-3">
+        <a href="./home.html"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none px-2"
+        >
+          <span class="fs-4 fw-bold" style="color: #2e3a4e;">{ </span>
+          <span class="fs-4 fw-bold" style="color: #2e3a4e;">"name"</span>
+          <span class="fs-4 fw-bold mx-1">:</span>
+          <span class="fs-4 fw-bold" style="color: #4a5568;">"Jordan Tatum"</span>
+          <span class="fs-4 fw-bold" style="color: #2e3a4e;"> }</span>
+        </a>
+        <ul class="nav nav-pills gap-2">
+          <li class="nav-item"><a href="./home.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="./about_me.html" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="./projects.html" class="nav-link active" aria-current="page">Projects</a></li>
+          <li class="nav-item"><a href="./resume.html" class="nav-link">Resume</a></li>
+        </ul>
+      </header>
+    </div>
+
+    <!-- Page Header -->
+    <div class="container pt-3 pb-2">
+      <h1 class="fw-bold" style="color: #2e3a4e;">
+        <i class="bi bi-code-slash me-2"></i>Projects
+      </h1>
+      <p class="text-muted">Things I've built, broken, and rebuilt.</p>
+      <hr />
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="container py-3">
+      <div class="row g-4">
+
+        <!-- Hard Copy -->
+        <div class="col-lg-6">
+          <div class="border rounded-3 shadow p-4 h-100 d-flex flex-column">
+            <div class="d-flex justify-content-between align-items-start mb-3">
+              <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-film" style="color: #2e3a4e; font-size: 1.5rem;"></i>
+                <h5 class="fw-bold mb-0">Hard Copy</h5>
+              </div>
+              <span class="badge" style="background-color: #4a5568;">In Progress</span>
+            </div>
+            <p class="text-muted small flex-grow-1">
+              A DVD & VHS tracker built for managing a physical movie collection. Designed for my wife
+              to keep track of every title in the collection from anywhere. Uses FastAPI to handle requests
+              and PostgreSQL to store and serve movie data via a clean REST API.
+            </p>
+            <hr class="my-3" />
+            <div class="d-flex flex-column gap-2 mb-3">
+              <p class="small mb-1 fw-semibold" style="color: #2e3a4e;">Key Features</p>
+              <p class="small mb-0"><i class="bi bi-check2 me-2" style="color: #2e3a4e;"></i>Add and manage movie titles</p>
+              <p class="small mb-0"><i class="bi bi-check2 me-2" style="color: #2e3a4e;"></i>PostgreSQL database backend</p>
+              <p class="small mb-0"><i class="bi bi-check2 me-2" style="color: #2e3a4e;"></i>Accessible via API from anywhere</p>
+            </div>
+            <div class="d-flex gap-2 flex-wrap mb-3">
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;">FastAPI</span>
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;">PostgreSQL</span>
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;">Python</span>
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;">REST API</span>
+            </div>
+            <a href="#" class="btn btn-sm" style="background-color: #2e3a4e; color: #ffffff; width: fit-content;">
+              <i class="bi bi-github me-2"></i>View on GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Shelf Check Out -->
+        <div class="col-lg-6">
+          <div class="border rounded-3 shadow p-4 h-100 d-flex flex-column">
+            <div class="d-flex justify-content-between align-items-start mb-3">
+              <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-cart3" style="color: #2e3a4e; font-size: 1.5rem;"></i>
+                <h5 class="fw-bold mb-0">Shelf Check Out</h5>
+              </div>
+              <span class="badge" style="background-color: #4a5568;">In Progress</span>
+            </div>
+            <p class="text-muted small flex-grow-1">
+              A grocery price comparison tool that scrapes store websites and hits grocery APIs to find
+              the best deal on the same product across multiple stores. Still brainstorming the comparison
+              logic — the fun part is still ahead.
+            </p>
+            <hr class="my-3" />
+            <div class="d-flex flex-column gap-2 mb-3">
+              <p class="small mb-1 fw-semibold" style="color: #2e3a4e;">Key Features</p>
+              <p class="small mb-0"><i class="bi bi-check2 me-2" style="color: #2e3a4e;"></i>Web scraping across multiple stores</p>
+              <p class="small mb-0"><i class="bi bi-check2 me-2" style="color: #2e3a4e;"></i>Grocery store API integration</p>
+              <p class="small mb-0"><i class="bi bi-check2 me-2" style="color: #2e3a4e;"></i>Price comparison across products</p>
+            </div>
+            <div class="d-flex gap-2 flex-wrap mb-3">
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;">Python</span>
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;">Web Scraping</span>
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;">APIs</span>
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;">Data</span>
+            </div>
+            <a href="#" class="btn btn-sm" style="background-color: #2e3a4e; color: #ffffff; width: fit-content;">
+              <i class="bi bi-github me-2"></i>View on GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Magnolia Way -->
+        <div class="col-lg-6">
+          <div class="border rounded-3 shadow p-4 h-100 d-flex flex-column">
+            <div class="d-flex justify-content-between align-items-start mb-3">
+              <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-flower1" style="color: #2e3a4e; font-size: 1.5rem;"></i>
+                <h5 class="fw-bold mb-0">Magnolia Way Wedding Venue</h5>
+              </div>
+              <span class="badge" style="background-color: #4a5568;">In Progress</span>
+            </div>
+            <p class="text-muted small flex-grow-1">
+              A full revamp of my family's wedding venue website. Currently all bookings and payments
+              are handled by hand — this project moves everything online with a modern web experience
+              for clients and a powerful admin view for the business.
+            </p>
+            <hr class="my-3" />
+            <div class="d-flex flex-column gap-2 mb-3">
+              <p class="small mb-1 fw-semibold" style="color: #2e3a4e;">Key Features</p>
+              <p class="small mb-0"><i class="bi bi-check2 me-2" style="color: #2e3a4e;"></i>Online payments integration</p>
+              <p class="small mb-0"><i class="bi bi-check2 me-2" style="color: #2e3a4e;"></i>Tour and booking request forms</p>
+              <p class="small mb-0"><i class="bi bi-check2 me-2" style="color: #2e3a4e;"></i>Admin dashboard with payment visualizations</p>
+            </div>
+            <div class="d-flex gap-2 flex-wrap mb-3">
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;">Web Dev</span>
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;">Payments</span>
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;">Dashboards</span>
+              <span class="badge rounded-pill" style="background-color: #2e3a4e;">HTML/CSS</span>
+            </div>
+            <a href="#" class="btn btn-sm" style="background-color: #2e3a4e; color: #ffffff; width: fit-content;">
+              <i class="bi bi-github me-2"></i>View on GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Placeholder / More Coming -->
+        <div class="col-lg-6">
+          <div class="border border-dashed rounded-3 p-4 h-100 d-flex flex-column align-items-center justify-content-center text-center" style="border-color: #4a5568 !important;">
+            <i class="bi bi-plus-circle mb-3" style="color: #4a5568; font-size: 2.5rem;"></i>
+            <h6 class="fw-bold text-muted">More Coming Soon</h6>
+            <p class="text-muted small mb-0">Always building. Check back for new projects.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-top shadow-sm mt-5 py-4">
+      <div class="container d-flex align-items-center justify-content-between">
+        <p class="text-muted small mb-0">&copy; 2025 Jordan Tatum. All rights reserved.</p>
+        <div class="d-flex gap-4">
+          <a href="https://linkedin.com/in/yourprofile" target="_blank" style="color: #2e3a4e; font-size: 1.75rem;">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://github.com/yourprofile" target="_blank" style="color: #2e3a4e; font-size: 1.75rem;">
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+        <a href="mailto:your@email.com" class="btn" style="background-color: #2e3a4e; color: #ffffff;">
+          <i class="bi bi-envelope me-2"></i>Contact Me
+        </a>
+      </div>
+    </footer>
+
+  </body>
+</html>
