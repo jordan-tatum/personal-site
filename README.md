@@ -6,7 +6,7 @@
 
 ## 🌐 Live Site
 
-Coming soon — link will be added once deployed.
+[Check out the live version here!](https://jordan-tatum.github.io/personal-site/)
 
 ---
 
